@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
 
-namespace altexsoft_lab_2020
+namespace Altexsoft_lab_2020
 {
-    class foldersName
+    class FoldersName
     {
-        mainMenu consoleMenu = new mainMenu();
+        NavMenu consoleMenu = new NavMenu();
         public void folderPath()
         {
             Console.WriteLine("\nEnter the directory: / Введите директорию: ");
