@@ -10,7 +10,7 @@ namespace Altexsoft_lab_2020
         {
             Console.WriteLine("\nEnter the directory: / Введите директорию: ");
             string[] allfolders = Directory.GetDirectories(Console.ReadLine());
-            Array.Sort(allfolders); 
+            Array.Sort(allfolders);
             foreach (string folder in allfolders)
             {
                 Console.WriteLine(Guid.NewGuid() + " | " + folder);
@@ -24,12 +24,7 @@ namespace Altexsoft_lab_2020
                 Console.WriteLine(filename);
             }
 
-            Console.WriteLine("\nTo return to the main menu press <Q> and <ENTER>/Что бы вернутся в главное меню нажмите <Q> и <ENTER>");
-            string exitToMainMenu = Console.ReadLine();
-            if (exitToMainMenu == "Q")
-                consoleMenu.Main();
-            else
-                Console.WriteLine("You entered an invalid character/Вы ввели недопустимый символ!");
+            consoleMenu.closeMenu();
         }
     }
 }
