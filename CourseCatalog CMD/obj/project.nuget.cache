@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EHxt5tzPRsyWg6JFhI5Nj/W4fO3y0cEg7qBnwZjOiCHaZlE5zK+lv6JsrJBykIyu/k80PGli5LO58Lh8Pl/f0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Виталий\\Documents\\GitHub\\altexsoft-lab-2020\\zulutkachenko\\altexsoft-lab-2020\\CourseCatalog CMD\\CourseCatalog CMD.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Виталий\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

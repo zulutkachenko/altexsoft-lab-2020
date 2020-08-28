@@ -1,0 +1,15 @@
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\bin\Debug\netcoreapp3.1\CourseCatalog.exe
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\obj\Debug\netcoreapp3.1\CourseCatalog.csprojAssemblyReference.cache
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\obj\Debug\netcoreapp3.1\CourseCatalog.AssemblyInfoInputs.cache
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\obj\Debug\netcoreapp3.1\CourseCatalog.AssemblyInfo.cs
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\bin\Debug\netcoreapp3.1\CourseCatalog.deps.json
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\bin\Debug\netcoreapp3.1\CourseCatalog.runtimeconfig.json
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\bin\Debug\netcoreapp3.1\CourseCatalog.runtimeconfig.dev.json
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\bin\Debug\netcoreapp3.1\CourseCatalog.dll
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\bin\Debug\netcoreapp3.1\CourseCatalog.pdb
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\obj\Debug\netcoreapp3.1\CourseCatalog.csproj.CoreCompileInputs.cache
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\obj\Debug\netcoreapp3.1\CourseCatalog.csproj.CopyComplete
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\obj\Debug\netcoreapp3.1\CourseCatalog.dll
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\obj\Debug\netcoreapp3.1\CourseCatalog.pdb
+C:\Users\Виталий\Documents\GitHub\altexsoft-lab-2020\zulutkachenko\altexsoft-lab-2020\CourseCatalog\obj\Debug\netcoreapp3.1\CourseCatalog.genruntimeconfig.cache
