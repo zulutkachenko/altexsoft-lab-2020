@@ -1,28 +1,23 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
-using System.Text.RegularExpressions;
 
-namespace Altexsoft_lab_2020
+namespace altexsoft_lab_2020
 {
-    class CountWord
+    class countWord
     {
-        NavMenu consoleMenu = new NavMenu();
+        mainMenu consoleMenu = new mainMenu();
         public void count()
         {
-            if (System.IO.File.Exists(@"textSampled.txt"))
-                Console.WriteLine("\nОткрываем файл...\n");
-                else
-                    Console.WriteLine("File <textSampled.txt> not found / Файл <textSampled.txt> не найден");
+            string str = File.ReadAllText(@"textSample.txt");
 
-            string openFile = File.ReadAllText(@"textSampled.txt");
-
-            string charsToRemove = "[@,()\t^$+\\.\";'\\\\]";
-
-            Regex regex = new Regex(charsToRemove);
-            string result = regex.Replace(openFile, "");
+            char[] charsToRemove = new char[] { '?', ',', '.', ';', '(', ')' };
+            foreach (char c in charsToRemove)
+            {
+                str = str.Replace(c.ToString(), string.Empty);
+            }
             
-            string[] words = result.Split(' ');
+            string[] words = str.Split(' ');
 
             Console.WriteLine("\nWord count/Количество слов: " + words.Length);
 
@@ -31,8 +26,8 @@ namespace Altexsoft_lab_2020
             {
                 termsList.Add(words[i - 1]);
             }
-                string glueWords = String.Join(", ", termsList);
-                Console.WriteLine("\nEvery tenth word/Каждое 10-ое слово: " + glueWords);
+                string ffr = String.Join(", ", termsList);
+                Console.WriteLine("\nEvery tenth word/Каждое 10-ое слово: " + ffr);
 
 
             Console.WriteLine("\nTo return to the main menu press <Q> and <ENTER>/Что бы вернутся в главное меню нажмите <Q> и <ENTER>");

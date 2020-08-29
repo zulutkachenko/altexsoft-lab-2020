@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Altexsoft_lab_2020
+namespace altexsoft_lab_2020
 {
     class Program
     {
         static void Main(string[] args)
         {
-            NavMenu consoleMenu = new NavMenu();
+            mainMenu consoleMenu = new mainMenu();
             Console.Clear();
             consoleMenu.Main();
         }

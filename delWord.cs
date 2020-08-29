@@ -1,28 +1,23 @@
 ﻿using System;
 using System.IO;
 
-namespace Altexsoft_lab_2020
+namespace altexsoft_lab_2020
 {
-    class DelWord
+    class delWord
     {
-        NavMenu consoleMenu = new NavMenu();
+        mainMenu consoleMenu = new mainMenu();
         public void words ()
         {
-                if (System.IO.File.Exists(@"textSampled.txt"))
-                Console.WriteLine("\nOpen file / Открываем файл...\n");
-                else
-                    Console.WriteLine("File <textSampled.txt> not found / Файл <textSampled.txt> не найден");
-
-            string openFile = File.ReadAllText(@"textSampled.txt"); // open file
-            File.WriteAllText(@"textSampleOrigin.txt", openFile); // save original file
+            string str = File.ReadAllText(@"textSample.txt"); // open file
+            File.WriteAllText(@"textSampleOrigin.txt", str); // save original file
 
             Console.Clear();
             Console.WriteLine("\nEnter the word/character you want to remove from the file / Введите слово/символ, которое хотите удалить из файла:");
             string deleteWord = Console.ReadLine();
 
-            if (openFile.Contains(deleteWord))
+            if (str.Contains(deleteWord))
             {
-                string textDel = openFile.Replace(deleteWord, "");
+                string textDel = str.Replace(deleteWord, "");
                 File.WriteAllText(@"textDelete.txt", textDel);
                 Console.WriteLine("OK!");
             }
