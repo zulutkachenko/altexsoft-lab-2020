@@ -1,20 +1,20 @@
 ﻿using System;
 
-namespace Altexsoft_lab_2020
+namespace altexsoft_lab_2020
 {
-    class NavMenu
+    class mainMenu
     {
         public void Main()
         {
-            CountWord countWord = new CountWord();
-            Reverse rev = new Reverse();
-            DelWord delWord = new DelWord();
-            FoldersName foldersName = new FoldersName();
+            countWord countWord = new countWord();
+            reverse rev = new reverse();
+            delWord delWord = new delWord();
+            foldersName foldersName = new foldersName();
             int i;
             {
 
                 {
-                    Console.Write("Меню:\n1) Remove character/word from text file / Удаление символа/слова из текстового файла \n2) Print the number of words in a text file / Вывести количество слов в текстовом файле \n3) Flip the third sentence / Перевернуть третье предложение \n4) File system mapping / Отображение файловой системы \n\n Your choice / Ваше решение: ");
+                    Console.Write("Меню:\n1) Remove character/word from text file / Удаление символа/слова из текстового файла \n2) Print the number of words in a text file / Вывести колчиство слов в текстовом файле \n3) Flip the third sentence / Перевернуть третье предложение \n4) File system mapping / Отображение файловой системы \n\n Your choice / Ваше решение: ");
                     i = int.Parse(Console.ReadLine());
                     switch (i)
                     {
